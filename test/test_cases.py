@@ -23,6 +23,14 @@ class MyTestCase(unittest.TestCase):
         """When power is negative and base is positive"""
         self.assertEqual(function_x_power_y.x_power_y(2, -2), pow(2, -2))
 
+    def test_string_num(self):
+        """When power is positive and base is string"""
+        self.assertEqual(function_x_power_y.x_power_y("string", 2), "Value Error")
+
+    def test_num_string(self):
+        """When power is string and base is positive"""
+        self.assertEqual(function_x_power_y.x_power_y(2, "string"), "Value Error")
+
 
 if __name__ == '__main__':
     unittest.main()
