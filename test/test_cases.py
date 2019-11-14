@@ -1,7 +1,7 @@
 """Test Cases for X_power_y"""
 
 import unittest
-import function_x_power_y
+from src.code import function_x_power_y
 
 
 class MyTestCase(unittest.TestCase):

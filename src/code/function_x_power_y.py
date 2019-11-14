@@ -16,10 +16,3 @@ def x_power_y(base, power):
         for num in range(1, pos_power + 1):
             answer = answer * pos_base
     return answer
-
-
-if __name__ == '__main__':
-    BASE_INPUT = int(sys.argv[1])
-    POWER_INPUT = int(sys.argv[2])
-    RESULT = x_power_y(BASE_INPUT, POWER_INPUT)
-    print(RESULT)
