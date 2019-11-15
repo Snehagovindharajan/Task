@@ -1,0 +1,16 @@
+ReadMe.md
+ScientificFunctionLog.log
+__main__.py
+setup.py
+mymath_task_x_power_y.egg-info/PKG-INFO
+mymath_task_x_power_y.egg-info/SOURCES.txt
+mymath_task_x_power_y.egg-info/dependency_links.txt
+mymath_task_x_power_y.egg-info/entry_points.txt
+mymath_task_x_power_y.egg-info/top_level.txt
+src/__init__.py
+src/code/__init__.py
+src/code/function_x_power_y.py
+src/main/__init__.py
+src/main/main.py
+test/__init__.py
+test/test_cases.py
