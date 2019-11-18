@@ -12,27 +12,27 @@ class ScientificCalc_Test(unittest.TestCase):
         test_obj = ScientificCalc()
         self.assertEqual(test_obj.x_power_y(2, 2), pow(2, 2))
 
-    def test_neg_pos(self):
+    def test_x_power_y_neg_pos(self):
         """When power is positive and base is negative"""
         test_obj = ScientificCalc()
         self.assertEqual(test_obj.x_power_y(-2, 2), pow(-2, 2))
 
-    def test_neg_neg(self):
+    def test_x_power_y_neg_neg(self):
         """When both the input is negative"""
         test_obj = ScientificCalc()
         self.assertEqual(test_obj.x_power_y(-2, -2), pow(-2, -2))
 
-    def test_pos_neg(self):
+    def test_x_power_y_pos_neg(self):
         """When power is negative and base is positive"""
         test_obj = ScientificCalc()
         self.assertEqual(test_obj.x_power_y(2, -2), pow(2, -2))
 
-    def test_string_num(self):
+    def test_x_power_y_string_num(self):
         """When power is positive and base is string"""
         test_obj = ScientificCalc()
         self.assertEqual(test_obj.x_power_y("string", 2), "Value Error")
 
-    def test_num_string(self):
+    def test_x_power_y_num_string(self):
         """When power is string and base is positive"""
         test_obj = ScientificCalc()
         self.assertEqual(test_obj.x_power_y(2, "string"), "Value Error")
