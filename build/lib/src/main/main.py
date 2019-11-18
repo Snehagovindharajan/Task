@@ -1,9 +1,9 @@
 import sys
-from src.driver.ScientificCalc import ScientificCalc
+from src.driver.ScientificCalc import ScientificFunction
 
 
 def main():
-    obj_power = ScientificCalc()
+    obj_power = ScientificFunction()
     input_base = sys.argv[1]
     input_power = sys.argv[2]
     final_answer = obj_power.x_power_y(input_base, input_power)
