@@ -1,5 +1,5 @@
 import sys
-from src.code.function_x_power_y import ScientificFunction
+from src.driver.ScientificCalc import ScientificFunction
 
 
 def main():

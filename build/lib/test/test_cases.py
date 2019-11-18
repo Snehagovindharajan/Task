@@ -1,11 +1,11 @@
 """Test Cases for X_power_y"""
 
 import unittest
-from src.code.function_x_power_y import ScientificFunction
+from src.driver.ScientificCalc import ScientificFunction
 
 
 class MyTestCase(unittest.TestCase):
-    """functions are defined for checking the test cases"""
+    """functions are defined for checking the main cases"""
 
     def test_pos_pos(self):
         """When both the input is positive"""

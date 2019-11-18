@@ -1,12 +1,12 @@
 """Code to Find x power y"""
 import logging
 
-logging.basicConfig(level=logging.ERROR, filename='ScientificFunctionLog.log', filemode='w', format='%(name)s - %('
-                                                                                                    'levelname)s - '
-                                                                                                    '%(message)s')
+logging.basicConfig(level=logging.ERROR, filename='ScientificCalculatorLog.log', filemode='w', format='%(name)s - %('
+                                                                                                      'levelname)s - '
+                                                                                                      '%(message)s')
 
 
-class ScientificFunction:
+class ScientificCalc:
     """x_power_y function to find the result"""
 
     def __init__(self):
