@@ -6,6 +6,7 @@ logging.basicConfig(filename='ScientificCalculatorLog.log', level=logging.ERROR,
                                                                                         '%(lineno)d - %(module)s - %('
                                                                                         'funcName)s - %(pathname)s')
 
+
 class ScientificCalc:
     """x_power_y function to find the result"""
 
@@ -14,11 +15,13 @@ class ScientificCalc:
         self.power = 0
         self.answer = 1
 
+    @classmethod
     def x_power_y(self, base_val, power_val):
         """first if condition is to find the power when given power value is positive and
         the second if condition is to find the result when the power is negative if power is zero
         it returns the value 1"""
         try:
+            self.answer = 1
             self.base = int(base_val)
             self.power = int(power_val)
             if self.power > 0:
