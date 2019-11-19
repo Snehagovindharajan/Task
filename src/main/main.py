@@ -4,26 +4,22 @@ import argparse
 import logging
 
 
-# logging.basicConfig(filename='ScientificCalculatorLog.log', filemode='w', level=logging.ERROR, format='%(name)s - %('
-#                                                                                                       'levelname)s - '
-#                                                                                                       '%(message)s - '
-#                                                                                                       '%(asctime)s')
-
+logging.basicConfig(filename='ScientificCalculatorLog.log', level=logging.ERROR, format='%(name)s - %(levelname)s - '
+                                                                                        '%(message)s - %(asctime)s - '
+                                                                                        '%(lineno)d - %(module)s - %('
+                                                                                        'funcName)s - %(pathname)s')
 
 def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--function', type=str, required=True)
-    args = parser.parse_args()
-    parser.add_argument('--param', type=int, required=True, nargs=2)
-    args_param = parser.parse_args()
-    method_name = args.function
-    print(method_name)
-    parameters = args_param.param
-    print(parameters)
-    obj_power = ScientificCalc()
-    input_base = sys.argv[1]
-    input_power = sys.argv[2]
-    # input_base = 2
-    # input_power = 2
-    final_answer = obj_power.x_power_y(input_base, input_power)
-    print(final_answer)
+    try:
+        parser = argparse.ArgumentParser()
+        parser.add_argument('--function', type=str, required=True, nargs='+')
+        args = parser.parse_args()
+        method_name = args.function
+        obj_power = ScientificCalc()
+        if method_name[0] == 'x_power_y':
+            input_base = method_name[1]
+            input_power = method_name[2]
+            final_answer = obj_power.x_power_y(input_base, input_power)
+            print(final_answer)
+    except IndexError as index:
+        logging.error(index)

@@ -1,0 +1,2 @@
+root - ERROR - list index out of range - 2019-11-19 11:03:35,826 - 25 - main - main - C:\Users\sneha.govindharajan\PycharmProjects\Task\src\main\main.py
+root - ERROR - invalid literal for int() with base 10: 'string' - 2019-11-19 11:05:42,217 - 34 - ScientificCalc - x_power_y - C:\Users\sneha.govindharajan\PycharmProjects\Task\src\driver\ScientificCalc.py
