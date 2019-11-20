@@ -10,20 +10,20 @@ produces:
 
 basePath: /scientificcalculator
 paths:
- /src/driver/ScientificCalc/ScientificCalc/{base_val},{power_val}:
+ /src/driver/ScientificCalc/ScientificCalc/var_initialization/{base_no},{power_no}:
     get:
-      operationId: src.driver.ScientificCalc.ScientificCalc.x_power_y
+      operationId: src.driver.ScientificCalc.ScientificCalc.var_initialization
       tags:
         - x_power_y
       summary: Calculate value for x power y
       description: Calculate value for x power y
       parameters:
-        - name: base_val
+        - name: base_no
           in: path
           description: Provides x value
           type: integer
           required: true
-        - name: power_val
+        - name: power_no
           in: path
           description: Provides y value
           type: integer

@@ -19,7 +19,7 @@ def main():
         if method_name[0] == 'x_power_y':
             input_base = method_name[1]
             input_power = method_name[2]
-            final_answer = obj_power.x_power_y(input_base, input_power)
+            final_answer = obj_power.var_initialization(input_base, input_power)
             print(final_answer)
     except IndexError as index:
         logging.error(index)

@@ -1,8 +1,8 @@
 ReadMe.md
-ScientificCalculatorLog.log
 __main__.py
 requirements.txt
 setup.py
+end_point/__init__.py
 mymath_task_x_power_y.egg-info/PKG-INFO
 mymath_task_x_power_y.egg-info/SOURCES.txt
 mymath_task_x_power_y.egg-info/dependency_links.txt
