@@ -159,3 +159,42 @@ werkzeug - INFO - 127.0.0.1 - - [20/Nov/2019 12:11:44] "GET /scientificcalculato
 werkzeug - INFO - 127.0.0.1 - - [20/Nov/2019 12:11:44] "GET /scientificcalculator/swagger.json HTTP/1.1" 200 - - 2019-11-20 12:11:44,926 - 122 - _internal - _log - C:\Users\sneha.govindharajan\PycharmProjects\x_power_y\venv\lib\site-packages\werkzeug\_internal.py
 werkzeug - INFO - 127.0.0.1 - - [20/Nov/2019 12:11:45] "GET /scientificcalculator/ui/images/favicon-32x32.png HTTP/1.1" 200 - - 2019-11-20 12:11:45,001 - 122 - _internal - _log - C:\Users\sneha.govindharajan\PycharmProjects\x_power_y\venv\lib\site-packages\werkzeug\_internal.py
 werkzeug - INFO - 127.0.0.1 - - [20/Nov/2019 12:11:51] "GET /scientificcalculator/src/driver/scientific_calc/ScientificCalc/var_initialization/2,2 HTTP/1.1" 200 - - 2019-11-20 12:11:51,493 - 122 - _internal - _log - C:\Users\sneha.govindharajan\PycharmProjects\x_power_y\venv\lib\site-packages\werkzeug\_internal.py
+root - ERROR - Unnecessary Number Of Parameters - 2019-11-20 21:16:53,788 - 12 - unnecessary_parameter_exception - __init__ - C:\Users\sneha\PycharmProjects\x_power_y\src\exception\unnecessary_parameter_exception.py
+root - ERROR - Unnecessary Number Of Parameters - 2019-11-20 21:21:26,459 - 12 - unnecessary_parameter_exception - __init__ - C:\Users\sneha\PycharmProjects\x_power_y\src\exception\unnecessary_parameter_exception.py
+root - ERROR - Unnecessary Number Of Parameters - 2019-11-20 21:24:59,408 - 12 - unnecessary_parameter_exception - __init__ - C:\Users\sneha\PycharmProjects\x_power_y\src\exception\unnecessary_parameter_exception.py
+root - ERROR - NoneType: None
+ - 2019-11-20 21:31:03,451 - 13 - unnecessary_parameter_exception - __init__ - C:\Users\sneha\PycharmProjects\x_power_y\src\exception\unnecessary_parameter_exception.py
+root - ERROR - Unnecessary Number Of Parameters - 2019-11-20 21:32:38,937 - 12 - unnecessary_parameter_exception - __init__ - C:\Users\sneha\PycharmProjects\x_power_y\src\exception\unnecessary_parameter_exception.py
+root - ERROR - Unnecessary Number Of Parameters - 2019-11-20 21:32:48,812 - 12 - unnecessary_parameter_exception - __init__ - C:\Users\sneha\PycharmProjects\x_power_y\src\exception\unnecessary_parameter_exception.py
+root - ERROR - Unnecessary Number Of Parameters - 2019-11-20 21:34:20,970 - 12 - unnecessary_parameter_exception - __init__ - C:\Users\sneha\PycharmProjects\x_power_y\src\exception\unnecessary_parameter_exception.py
+root - ERROR - Unnecessary Number Of Parameters - 2019-11-20 21:35:07,679 - 12 - unnecessary_parameter_exception - __init__ - C:\Users\sneha\PycharmProjects\x_power_y\src\exception\unnecessary_parameter_exception.py
+root - ERROR - Traceback (most recent call last):
+  File "C:\Users\sneha\PycharmProjects\x_power_y\src\main\main.py", line 24, in main
+    raise UnnecessaryParameterException
+src.exception.unnecessary_parameter_exception.UnnecessaryParameterException
+ - 2019-11-20 21:35:07,680 - 37 - main - main - C:\Users\sneha\PycharmProjects\x_power_y\src\main\main.py
+root - ERROR - Traceback (most recent call last):
+  File "C:\Users\sneha\PycharmProjects\x_power_y\src\main\main.py", line 28, in main
+    input_power = method_name[2]
+IndexError: list index out of range
+ - 2019-11-20 21:39:55,254 - 33 - main - main - C:\Users\sneha\PycharmProjects\x_power_y\src\main\main.py
+root - ERROR - Traceback (most recent call last):
+  File "C:\Users\sneha\PycharmProjects\x_power_y\src\main\main.py", line 28, in main
+    input_power = method_name[2]
+IndexError: list index out of range
+ - 2019-11-20 21:41:23,721 - 34 - main - main - C:\Users\sneha\PycharmProjects\x_power_y\src\main\main.py
+root - ERROR - Traceback (most recent call last):
+  File "C:\Users\sneha\PycharmProjects\x_power_y\src\main\main.py", line 24, in main
+    raise UnnecessaryParameterException
+src.exception.unnecessary_parameter_exception.UnnecessaryParameterException
+ - 2019-11-20 21:48:46,863 - 38 - main - main - C:\Users\sneha\PycharmProjects\x_power_y\src\main\main.py
+root - ERROR - Traceback (most recent call last):
+  File "C:\Users\sneha\PycharmProjects\x_power_y\src\main\main.py", line 25, in main
+    raise UnnecessaryParameterException
+src.exception.unnecessary_parameter_exception.UnnecessaryParameterException
+ - 2019-11-20 22:00:02,087 - 39 - main - main - C:\Users\sneha\PycharmProjects\x_power_y\src\main\main.py
+root - ERROR - Traceback (most recent call last):
+  File "C:\Users\sneha\PycharmProjects\x_power_y\src\main\main.py", line 25, in main
+    raise UnnecessaryParameterException
+src.exception.unnecessary_parameter_exception.UnnecessaryParameterException
+ - 2019-11-20 22:02:11,818 - 38 - main - main - C:\Users\sneha\PycharmProjects\x_power_y\src\main\main.py

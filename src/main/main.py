@@ -1,7 +1,8 @@
 """main method to create object for scientific_cal class"""
 import argparse
 import logging
-
+import traceback
+from src.exception.unnecessary_parameter_exception import UnnecessaryParameterException
 from src.driver.scientific_calc import ScientificCalc
 
 logging.basicConfig(filename='ScientificCalculatorLog.log', level=logging.ERROR,
@@ -20,9 +21,18 @@ def main():
         args = parser.parse_args()
         method_name = args.function
         if method_name[0] == 'x_power_y':
+            if len(method_name) > 3:
+                raise UnnecessaryParameterException
             input_base = method_name[1]
             input_power = method_name[2]
             final_answer = obj_power.var_initialization(input_base, input_power)
             print(final_answer)
+
     except IndexError as index:
-        logging.error(index)
+        print(index)
+        index_tb = traceback.format_exc()
+        logging.error(index_tb)
+
+    except UnnecessaryParameterException:
+        param_tb = traceback.format_exc()
+        logging.error(param_tb)
