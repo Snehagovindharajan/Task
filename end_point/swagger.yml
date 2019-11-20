@@ -21,7 +21,7 @@ paths:
         - name: base_no
           in: path
           description: Provides x value
-          type: integer
+          type: string
           required: true
         - name: power_no
           in: path
