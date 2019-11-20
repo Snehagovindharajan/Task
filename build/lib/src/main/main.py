@@ -1,15 +1,17 @@
+"""main method to create object for scientific_cal class"""
 import argparse
 import logging
 
 from src.driver.scientific_calc import ScientificCalc
 
-logging.basicConfig(filename='ScientificCalculatorLog.log', level=logging.ERROR, format='%(name)s - %(levelname)s - '
-                                                                                        '%(message)s - %(asctime)s - '
-                                                                                        '%(lineno)d - %(module)s - %('
-                                                                                        'funcName)s - %(pathname)s')
+logging.basicConfig(filename='ScientificCalculatorLog.log', level=logging.ERROR,
+                    format='%(name)s - %(levelname)s - %(message)s - %(asctime)s - %(lineno)d - %(module)s - %('
+                           'funcName)s - %(pathname)s')
 
 
 def main():
+    """create object for scientific_calc class, passing parameters using Command Line
+    and calling the method"""
     try:
         obj_power = ScientificCalc()
         parser = argparse.ArgumentParser()
