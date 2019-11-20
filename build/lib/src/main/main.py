@@ -1,7 +1,7 @@
 import argparse
 import logging
 
-from src.driver.ScientificCalc import ScientificCalc
+from src.driver.scientific_calc import ScientificCalc
 
 logging.basicConfig(filename='ScientificCalculatorLog.log', level=logging.ERROR, format='%(name)s - %(levelname)s - '
                                                                                         '%(message)s - %(asctime)s - '

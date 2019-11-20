@@ -10,9 +10,9 @@ produces:
 
 basePath: /scientificcalculator
 paths:
- /src/driver/ScientificCalc/ScientificCalc/var_initialization/{base_no},{power_no}:
+ /src/driver/scientific_calc/ScientificCalc/var_initialization/{base_no},{power_no}:
     get:
-      operationId: src.driver.ScientificCalc.ScientificCalc.var_initialization
+      operationId: src.driver.scientific_calc.ScientificCalc.var_initialization
       tags:
         - x_power_y
       summary: Calculate value for x power y

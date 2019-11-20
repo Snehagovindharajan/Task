@@ -1,10 +1,10 @@
 """Test Cases for X_power_y"""
 
 import unittest
-from src.driver.ScientificCalc import ScientificCalc
+from src.driver.scientific_calc import ScientificCalc
 
 
-class ScientificCalc_Test(unittest.TestCase):
+class ScientificCalcTest(unittest.TestCase):
     """functions are defined for checking the main cases"""
 
     def test_x_power_y_posint_posint(self):

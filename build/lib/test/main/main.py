@@ -1,4 +1,4 @@
-from test.driver.ScientificCalc_Test import ScientificCalc_Test
+from test.driver.scientific_calc_test import ScientificCalc_Test
 import unittest
 
 if __name__ == '__main__':
