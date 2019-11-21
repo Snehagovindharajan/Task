@@ -1,7 +1,6 @@
 """main method to create object for scientific_cal class"""
 import argparse
 import logging
-import traceback
 from src.exception.unnecessary_parameter_exception import UnnecessaryParameterException
 from src.driver.scientific_calc import ScientificCalc
 
@@ -30,9 +29,7 @@ def main():
 
     except IndexError as index:
         print(index)
-        index_tb = traceback.format_exc()
-        logging.error(index_tb)
+        logging.exception(index)
 
-    except UnnecessaryParameterException:
-        param_tb = traceback.format_exc()
-        logging.error(param_tb)
+    except UnnecessaryParameterException as parameter:
+        logging.exception(parameter)

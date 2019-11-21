@@ -2,7 +2,8 @@
 import logging
 
 logging.basicConfig(filename='ScientificCalculatorLog.log', level=logging.ERROR,
-                    format='%(name)s - %(levelname)s - %(message)s - %(asctime)s - %(lineno)d - %(module)s - %('
+                    format='%(name)s - %(levelname)s - %(message)s - %(asctime)s '
+                           '- %(lineno)d - %(module)s - %('
                            'funcName)s - %(pathname)s')
 
 
@@ -36,8 +37,8 @@ class ScientificCalc:
         """initializing the variables"""
         try:
             base = float(base_no)
-            power = float(power_no)
+            power = int(power_no)
             return cls.x_power_y(base, power)
         except ValueError as error:
-            logging.error(error)
+            logging.exception(error)
             return "Value Error"
