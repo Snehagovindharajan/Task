@@ -40,5 +40,5 @@ class ScientificCalc:
             power = int(power_no)
             return cls.x_power_y(base, power)
         except ValueError as error:
-            logging.error(error)
+            logging.exception(error)
             return "Value Error"
