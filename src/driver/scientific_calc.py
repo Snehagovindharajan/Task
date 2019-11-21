@@ -37,7 +37,7 @@ class ScientificCalc:
         """initializing the variables"""
         try:
             base = float(base_no)
-            power = float(power_no)
+            power = int(power_no)
             return cls.x_power_y(base, power)
         except ValueError as error:
             logging.error(error)

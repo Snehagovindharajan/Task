@@ -10,3 +10,5 @@ root - ERROR - could not convert string to float: 'string' - 2019-11-20 11:07:30
 root - ERROR - could not convert string to float: 'string' - 2019-11-20 11:07:30,754 - 42 - ScientificCalc - var_initialization - C:\Users\sneha.govindharajan\PycharmProjects\Task\src\driver\ScientificCalc.py
 root - ERROR - could not convert string to float: 'string' - 2019-11-20 11:19:17,775 - 42 - ScientificCalc - var_initialization - C:\Users\sneha.govindharajan\PycharmProjects\Task\src\driver\ScientificCalc.py
 root - ERROR - could not convert string to float: 'string' - 2019-11-20 11:19:17,791 - 42 - ScientificCalc - var_initialization - C:\Users\sneha.govindharajan\PycharmProjects\Task\src\driver\ScientificCalc.py
+root - ERROR - invalid literal for int() with base 10: 'string' - 2019-11-20 17:29:21,652 - 43 - scientific_calc - var_initialization - C:\Users\sneha.govindharajan\PycharmProjects\Task\src\driver\scientific_calc.py
+root - ERROR - could not convert string to float: 'string' - 2019-11-20 17:29:21,655 - 43 - scientific_calc - var_initialization - C:\Users\sneha.govindharajan\PycharmProjects\Task\src\driver\scientific_calc.py
