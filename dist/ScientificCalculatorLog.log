@@ -1,0 +1,30 @@
+root - ERROR - Traceback (most recent call last):
+  File "function_x_power_y-1.1-py3.7.egg\src\main\main.py", line 24, in main
+    raise UnnecessaryParameterException
+src.exception.unnecessary_parameter_exception.UnnecessaryParameterException
+ - 2019-11-20 21:50:30,983 - 38 - main - main - function_x_power_y-1.1-py3.7.egg\src\main\main.py
+root - ERROR - Traceback (most recent call last):
+  File "function_x_power_y-1.1-py3.7.egg\src\main\main.py", line 24, in main
+    raise UnnecessaryParameterException
+src.exception.unnecessary_parameter_exception.UnnecessaryParameterException
+ - 2019-11-20 21:51:19,286 - 38 - main - main - function_x_power_y-1.1-py3.7.egg\src\main\main.py
+root - ERROR - Traceback (most recent call last):
+  File "function_x_power_y-1.1-py3.7.egg\src\main\main.py", line 24, in main
+    raise UnnecessaryParameterException
+src.exception.unnecessary_parameter_exception.UnnecessaryParameterException
+ - 2019-11-20 21:51:36,176 - 38 - main - main - function_x_power_y-1.1-py3.7.egg\src\main\main.py
+root - ERROR - Traceback (most recent call last):
+  File "function_x_power_y-1.2-py3.7.egg\src\main\main.py", line 25, in main
+    raise UnnecessaryParameterException
+src.exception.unnecessary_parameter_exception.UnnecessaryParameterException
+ - 2019-11-20 21:52:36,816 - 40 - main - main - function_x_power_y-1.2-py3.7.egg\src\main\main.py
+root - ERROR - Traceback (most recent call last):
+  File "function_x_power_y-1.2-py3.7.egg\src\main\main.py", line 25, in main
+    raise UnnecessaryParameterException
+src.exception.unnecessary_parameter_exception.UnnecessaryParameterException
+ - 2019-11-20 22:03:46,179 - 38 - main - main - function_x_power_y-1.2-py3.7.egg\src\main\main.py
+root - ERROR - Traceback (most recent call last):
+  File "function_x_power_y-1.2-py3.7.egg\src\main\main.py", line 25, in main
+    raise UnnecessaryParameterException
+src.exception.unnecessary_parameter_exception.UnnecessaryParameterException
+ - 2019-11-20 22:08:38,086 - 38 - main - main - function_x_power_y-1.2-py3.7.egg\src\main\main.py
