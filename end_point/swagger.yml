@@ -11,7 +11,7 @@ produces:
 basePath: /scientificcalculator
 paths:
  /src/driver/scientific_calc/ScientificCalc/var_initialization/{base_no},{power_no}:
-    get:
+    post:
       operationId: src.driver.scientific_calc.ScientificCalc.var_initialization
       tags:
         - x_power_y
@@ -26,7 +26,7 @@ paths:
         - name: power_no
           in: path
           description: Provides y value
-          type: integer
+          type: string
           required: true
       responses:
         200:
