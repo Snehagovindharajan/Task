@@ -24,7 +24,7 @@ openapi-spec-validator==0.2.8
 packaging==19.2
 pip==19.0.3
 pluggy==0.13.0
-py==1.8.0
+py==1.10.0
 pylint==2.4.4
 pyparsing==2.4.5
 pyrsistent==0.15.5
